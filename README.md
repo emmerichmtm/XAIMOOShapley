@@ -23,12 +23,6 @@ Use the following command to install all dependencies:
 ```bash
 pip install pandas xgboost shap matplotlib scikit-learn
 
-# SHAP and Visualization Examples
-
-This repository contains Python scripts and datasets for exploring SHAP (SHapley Additive exPlanations) and visualizing data using 3D scatterplots with 2D projections. The provided scripts demonstrate machine learning model explainability, data visualization techniques, and region-of-interest highlighting for classification tasks.
-
----
-
 ## Repository Structure
 
 ### Scripts
@@ -60,19 +54,3 @@ This repository contains Python scripts and datasets for exploring SHAP (SHapley
 
 ---
 
-## Getting Started
-
-### Prerequisites
-
-- Python 3.7+
-- Required libraries:
-  - `pandas`
-  - `numpy`
-  - `matplotlib`
-  - `xgboost`
-  - `shap`
-  - `scikit-learn`
-
-Install dependencies using:
-```bash
-pip install -r requirements.txt
