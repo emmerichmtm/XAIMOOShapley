@@ -23,3 +23,56 @@ Use the following command to install all dependencies:
 ```bash
 pip install pandas xgboost shap matplotlib scikit-learn
 
+# SHAP and Visualization Examples
+
+This repository contains Python scripts and datasets for exploring SHAP (SHapley Additive exPlanations) and visualizing data using 3D scatterplots with 2D projections. The provided scripts demonstrate machine learning model explainability, data visualization techniques, and region-of-interest highlighting for classification tasks.
+
+---
+
+## Repository Structure
+
+### Scripts
+
+1. **`shap-sandbox-example.py`**
+   - A sandbox script for experimenting with SHAP values on binary classification models.
+   - Demonstrates model explainability through SHAP plots.
+   - Focused on smaller-scale datasets for quick experimentation.
+
+2. **`shap-examples-main.py`**
+   - The primary script for SHAP analysis, integrating machine learning models (e.g., XGBoost) with SHAP value computations.
+   - Handles binary classification tasks across multiple regions of interest.
+   - Includes functionality for both local and global model explainability.
+
+3. **`scatterplot3d.py`**
+   - Visualizes multidimensional datasets using 3D scatterplots and corresponding 2D projections.
+   - Highlights specific instances in both 3D and 2D visualizations.
+   - Designed for test problems such as `VehicleCrash`.
+
+---
+
+### `mydata` Folder
+
+- **Description**: Contains the datasets required for the scripts.
+- **CSV Files**:
+  - **`TwoBarTrussLabeled.csv`**: Dataset for the "Two-Bar Truss" test problem.
+  - **`VehicleCrashLabeled.csv`**: Dataset for the "Vehicle Crash" test problem.
+- These files are normalized and processed within the scripts to compute objectives, highlight regions of interest, and demonstrate explainability.
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+- Python 3.7+
+- Required libraries:
+  - `pandas`
+  - `numpy`
+  - `matplotlib`
+  - `xgboost`
+  - `shap`
+  - `scikit-learn`
+
+Install dependencies using:
+```bash
+pip install -r requirements.txt
