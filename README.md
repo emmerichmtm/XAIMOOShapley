@@ -22,7 +22,7 @@ Install the following Python libraries:
 Use the following command to install all dependencies:
 ```bash
 pip install pandas xgboost shap matplotlib scikit-learn
-
+```
 ## Repository Structure
 
 ### Scripts
