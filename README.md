@@ -33,7 +33,7 @@ pip install pandas xgboost shap matplotlib scikit-learn
    - Focused on smaller-scale datasets for quick experimentation.
 
 2. **`shap-examples-main.py`**
-   - The primary script for SHAP analysis, integrating machine learning models (e.g., XGBoost) with SHAP value computations.
+   - The primary script for SHAP analysis configured for the two examples twoBarTruss and VehicleCrash.
    - Handles binary classification tasks across multiple regions of interest.
    - Includes functionality for both local and global model explainability.
 
