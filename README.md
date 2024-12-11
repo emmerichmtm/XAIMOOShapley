@@ -53,4 +53,7 @@ pip install pandas xgboost shap matplotlib scikit-learn
 - These files are normalized and processed within the scripts to compute objectives, highlight regions of interest, and demonstrate explainability.
 
 ---
+## License
+
+This project is licensed under the [Creative Commons Attribution 2.0 Generic (CC BY 2.0)](https://creativecommons.org/licenses/by/2.0/) license.
 
